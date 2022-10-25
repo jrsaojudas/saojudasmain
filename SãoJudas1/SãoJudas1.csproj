@@ -12,6 +12,7 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -24,7 +25,6 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -80,6 +80,12 @@
     <Compile Include="Forms\Logistica.Designer.cs">
       <DependentUpon>Logistica.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\PesquisaCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PesquisaCliente.Designer.cs">
+      <DependentUpon>PesquisaCliente.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\TelaSys.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -98,6 +104,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Logistica.resx">
       <DependentUpon>Logistica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PesquisaCliente.resx">
+      <DependentUpon>PesquisaCliente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\TelaSys.resx">
       <DependentUpon>TelaSys.cs</DependentUpon>
@@ -126,15 +135,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Classes\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="SQLSJ\Dados.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="SQLSJ\Dados_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <DependentUpon>Dados.mdf</DependentUpon>
-    </Content>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">

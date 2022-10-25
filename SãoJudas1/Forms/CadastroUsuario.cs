@@ -15,7 +15,7 @@ namespace SãoJudas1.Forms
     {
         //DadosDataSetTableAdapters.ClientesTableAdapter TAClientes = new DadosDataSetTableAdapters.ClientesTableAdapter();
 
-        //frmPrincipal Pri;
+        TelaSys Pri;
 
         public CadastroUsuario()
         {
@@ -25,7 +25,7 @@ namespace SãoJudas1.Forms
         public CadastroUsuario(TelaSys formularioPri)
         {
             InitializeComponent();
-            //Pri = formularioPri;
+            Pri = formularioPri;
         }
 
         private void frmCliente_Load(object sender, EventArgs e)
@@ -68,7 +68,7 @@ namespace SãoJudas1.Forms
             }
         }
 
-        private void btnAlterar_Click(object sender, EventArgs e)
+        private void btnAlterar_Click (object sender, EventArgs e)
         {
             try
             {

@@ -23,7 +23,7 @@ namespace SãoJudas1
             System.Windows.Forms.Application.Exit();
         }
 
-        private void botaologin_Click(object sender, EventArgs e)
+        private void botaologin_Click(object sender, EventArgs e, EventHandler Enter)
         {
             if(usuariologin.Text =="jonathan" && senhalogin.Text == "1234")
             {

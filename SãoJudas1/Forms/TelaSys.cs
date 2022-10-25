@@ -34,5 +34,12 @@ namespace SãoJudas1.Forms
                 System.Diagnostics.Process.Start(openFileDialog1.FileName);
             }
         }
+
+        private void logísticaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Logistica logistica = new Logistica();
+            logistica.Show();
+            this.Hide();
+        }
     }
 }

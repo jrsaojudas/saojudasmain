@@ -30,6 +30,7 @@ namespace SãoJudas1
                 MessageBox.Show("Bem vindo ao sistema");
                 TelaSys telaSys = new TelaSys();
                 telaSys.Show();
+                this.Hide();
                 if (LembrarUser.Checked == true)
                 {
                     Properties.Settings.Default.usuario = usuariologin.Text;
@@ -52,8 +53,7 @@ namespace SãoJudas1
         {
             if (Properties.Settings.Default.usuario != String.Empty)
             {
-                usuariologin.Text = Properties.Settings.Default.usuario;                
-
+                usuariologin.Text = Properties.Settings.Default.usuario;
             }
         }
     }

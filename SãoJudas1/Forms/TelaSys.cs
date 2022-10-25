@@ -45,6 +45,7 @@ namespace SãoJudas1.Forms
         {
             CadastroUsuario cadastroUsuario = new CadastroUsuario();
             cadastroUsuario.Show();
+
         }
     }
 }

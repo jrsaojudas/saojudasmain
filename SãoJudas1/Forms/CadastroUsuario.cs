@@ -11,21 +11,21 @@ using SãoJudas1.Validador;
 
 namespace SãoJudas1.Forms
 {
-    public partial class frmCliente : Form
+    public partial class CadastroUsuario : Form
     {
-        DadosDataSetTableAdapters.ClientesTableAdapter TAClientes = new DadosDataSetTableAdapters.ClientesTableAdapter();
+        //DadosDataSetTableAdapters.ClientesTableAdapter TAClientes = new DadosDataSetTableAdapters.ClientesTableAdapter();
 
-        frmPrincipal Pri;
+        //frmPrincipal Pri;
 
-        public frmCliente()
+        public CadastroUsuario()
         {
             InitializeComponent();
         }
 
-        public frmCliente(TelaSys formularioPri)
+        public CadastroUsuario(TelaSys formularioPri)
         {
             InitializeComponent();
-            Pri = formularioPri;
+            //Pri = formularioPri;
         }
 
         private void frmCliente_Load(object sender, EventArgs e)
@@ -39,8 +39,8 @@ namespace SãoJudas1.Forms
 
         private void btnLLocalizar_Click(object sender, EventArgs e)
         {
-            frmPesquisaCliente frmPesqCli = new frmPesquisaCliente(this);
-            frmPesqCli.ShowDialog(this);
+           // frmPesquisaCliente frmPesqCli = new frmPesquisaCliente(this);
+            //frmPesqCli.ShowDialog(this);
         }
 
         private void btnIncluir_Click(object sender, EventArgs e)
@@ -55,7 +55,7 @@ namespace SãoJudas1.Forms
                     mskCPF.TextMaskFormat = MaskFormat.IncludePromptAndLiterals;
                     try
                     {
-                        TAClientes.inserir_alterar_Cliente(mskCPF.Text, txtNome.Text, txtEndereco.Text, mskTelefone.Text, 1);
+                        //TAClientes.inserir_alterar_Cliente(mskCPF.Text, txtNome.Text, txtEndereco.Text, mskTelefone.Text, 1);
                         MessageBox.Show("Cliente cadastrado com sucesso!", "Clientes", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                     catch (Exception ex)
@@ -72,7 +72,7 @@ namespace SãoJudas1.Forms
         {
             try
             {
-                TAClientes.inserir_alterar_Cliente(mskCPF.Text, txtNome.Text, txtEndereco.Text, mskTelefone.Text, 2);
+                //TAClientes.inserir_alterar_Cliente(mskCPF.Text, txtNome.Text, txtEndereco.Text, mskTelefone.Text, 2);
                 MessageBox.Show("Dados atualizados!", "Clientes", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch (Exception ex)
@@ -87,7 +87,7 @@ namespace SãoJudas1.Forms
             {
                 try
                 {
-                    TAClientes.ExcluirCliente(mskCPF.Text);
+                    //TAClientes.ExcluirCliente(mskCPF.Text);
                     mskCPF.Text = "";
                     mskTelefone.Text = "";
                     txtEndereco.Text = "";
@@ -108,5 +108,5 @@ namespace SãoJudas1.Forms
             this.Close();
         }
     }
-} }
-}
+} 
+

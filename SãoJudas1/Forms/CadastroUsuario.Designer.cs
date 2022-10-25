@@ -1,6 +1,6 @@
 ﻿namespace SãoJudas1.Forms
 {
-    partial class frmCliente
+    partial class CadastroUsuario
     {
         /// <summary>
         /// Required designer variable.
@@ -154,7 +154,7 @@
             this.btnFechar.Text = "Fechar";
             this.btnFechar.UseVisualStyleBackColor = true;
             // 
-            // frmCliente
+            // CadastroUsuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -173,7 +173,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.MaximizeBox = false;
-            this.Name = "frmCliente";
+            this.Name = "CadastroUsuario";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cadastro de Usuario";
             this.ResumeLayout(false);

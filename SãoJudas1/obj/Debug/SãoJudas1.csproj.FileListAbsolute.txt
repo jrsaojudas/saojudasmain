@@ -36,7 +36,6 @@ C:\Users\JONATHAN BARRETO\Source\Repos\saojudasmain\SãoJudas1\obj\Debug\SãoJud
 C:\Users\JONATHAN BARRETO\Source\Repos\saojudasmain\SãoJudas1\obj\Debug\SãoJudas1.csproj.CoreCompileInputs.cache
 C:\Users\JONATHAN BARRETO\Source\Repos\saojudasmain\SãoJudas1\obj\Debug\SãoJudas1.exe
 C:\Users\JONATHAN BARRETO\Source\Repos\saojudasmain\SãoJudas1\obj\Debug\SãoJudas1.pdb
-C:\Users\JONATHAN BARRETO\Source\Repos\saojudasmain\SãoJudas1\bin\Debug\SQLSJ\BDSaoJudas.mdf
-C:\Users\JONATHAN BARRETO\Source\Repos\saojudasmain\SãoJudas1\bin\Debug\SQLSJ\BDSaoJudas_log.ldf
 C:\Users\JONATHAN BARRETO\Source\Repos\saojudasmain\SãoJudas1\bin\Debug\SQLSJ\Dados.mdf
 C:\Users\JONATHAN BARRETO\Source\Repos\saojudasmain\SãoJudas1\bin\Debug\SQLSJ\Dados_log.ldf
+C:\Users\JONATHAN BARRETO\Source\Repos\saojudasmain\SãoJudas1\obj\Debug\SãoJudas1.Forms.CadastroUsuario.resources

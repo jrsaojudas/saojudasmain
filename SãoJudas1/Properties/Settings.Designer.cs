@@ -46,5 +46,16 @@ namespace SãoJudas1.Properties {
                 this["senha"] = value;
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\SQLSJ\\Dados.m" +
+            "df;Integrated Security=True")]
+        public string DadosConnectionString {
+            get {
+                return ((string)(this["DadosConnectionString"]));
+            }
+        }
     }
 }

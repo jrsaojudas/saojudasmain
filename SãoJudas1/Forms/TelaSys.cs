@@ -40,5 +40,11 @@ namespace SãoJudas1.Forms
             Logistica logistica = new Logistica();
             logistica.Show();            
         }
+
+        private void cadastroUsuárioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CadastroUsuario cadastroUsuario = new CadastroUsuario();
+            cadastroUsuario.Show();
+        }
     }
 }

@@ -36,6 +36,8 @@
             this.menuStrip2 = new System.Windows.Forms.MenuStrip();
             this.departamentoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.logísticaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tecnologiaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cadastroUsuárioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -53,7 +55,7 @@
             // novoToolStripMenuItem
             // 
             this.novoToolStripMenuItem.Name = "novoToolStripMenuItem";
-            this.novoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.novoToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
             this.novoToolStripMenuItem.Text = "Abrir";
             this.novoToolStripMenuItem.Click += new System.EventHandler(this.novoToolStripMenuItem_Click);
             // 
@@ -90,7 +92,8 @@
             // departamentoToolStripMenuItem
             // 
             this.departamentoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.logísticaToolStripMenuItem});
+            this.logísticaToolStripMenuItem,
+            this.tecnologiaToolStripMenuItem});
             this.departamentoToolStripMenuItem.Name = "departamentoToolStripMenuItem";
             this.departamentoToolStripMenuItem.Size = new System.Drawing.Size(95, 20);
             this.departamentoToolStripMenuItem.Text = "Departamento";
@@ -102,6 +105,21 @@
             this.logísticaToolStripMenuItem.Text = "Logística";
             this.logísticaToolStripMenuItem.Click += new System.EventHandler(this.logísticaToolStripMenuItem_Click);
             // 
+            // tecnologiaToolStripMenuItem
+            // 
+            this.tecnologiaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.cadastroUsuárioToolStripMenuItem});
+            this.tecnologiaToolStripMenuItem.Name = "tecnologiaToolStripMenuItem";
+            this.tecnologiaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.tecnologiaToolStripMenuItem.Text = "Tecnologia";
+            // 
+            // cadastroUsuárioToolStripMenuItem
+            // 
+            this.cadastroUsuárioToolStripMenuItem.Name = "cadastroUsuárioToolStripMenuItem";
+            this.cadastroUsuárioToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.cadastroUsuárioToolStripMenuItem.Text = "Cadastro Usuário";
+            this.cadastroUsuárioToolStripMenuItem.Click += new System.EventHandler(this.cadastroUsuárioToolStripMenuItem_Click);
+            // 
             // TelaSys
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -109,9 +127,11 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.menuStrip2);
+            this.IsMdiContainer = true;
             this.MaximizeBox = false;
             this.Name = "TelaSys";
             this.Text = "São Judas";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.menuStrip2.ResumeLayout(false);
             this.menuStrip2.PerformLayout();
             this.ResumeLayout(false);
@@ -129,5 +149,7 @@
         private System.Windows.Forms.MenuStrip menuStrip2;
         private System.Windows.Forms.ToolStripMenuItem departamentoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem logísticaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tecnologiaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cadastroUsuárioToolStripMenuItem;
     }
 }

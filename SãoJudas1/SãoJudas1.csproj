@@ -12,7 +12,10 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+<<<<<<< HEAD
     <IsWebBootstrapper>false</IsWebBootstrapper>
+=======
+>>>>>>> 1559ae8a19ce2973281af4d69dd58ffd635bba71
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -25,6 +28,10 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+<<<<<<< HEAD
+=======
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+>>>>>>> 1559ae8a19ce2973281af4d69dd58ffd635bba71
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -139,7 +146,11 @@
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
       <Visible>False</Visible>
+<<<<<<< HEAD
       <ProductName>Microsoft .NET Framework 4.7.2 %28x86 e x64%29</ProductName>
+=======
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+>>>>>>> 1559ae8a19ce2973281af4d69dd58ffd635bba71
       <Install>true</Install>
     </BootstrapperPackage>
     <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">

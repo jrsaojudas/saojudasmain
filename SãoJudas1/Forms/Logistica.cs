@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
+using System.Data.Common;
 
 namespace SãoJudas1.Forms
 {
@@ -15,6 +17,16 @@ namespace SãoJudas1.Forms
         public Logistica()
         {
             InitializeComponent();
+        }
+
+        private void Logistica_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

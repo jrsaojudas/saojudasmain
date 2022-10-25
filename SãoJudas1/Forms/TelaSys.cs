@@ -38,8 +38,7 @@ namespace SãoJudas1.Forms
         private void logísticaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Logistica logistica = new Logistica();
-            logistica.Show();
-            this.Hide();
+            logistica.Show();            
         }
     }
 }

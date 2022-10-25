@@ -44,6 +44,25 @@ namespace SãoJudas1
                     Properties.Settings.Default.Save();
                 }
             }
+            if (usuariologin.Text == "higor" && senhalogin.Text == "1234")
+            {
+                MessageBox.Show("Bem vindo ao sistema");
+                TelaSys telaSys = new TelaSys();
+                telaSys.Show();
+                this.Hide();
+                if (LembrarUser.Checked == true)
+                {
+                    Properties.Settings.Default.usuario = usuariologin.Text;
+                    Properties.Settings.Default.senha = senhalogin.Text;
+                    Properties.Settings.Default.Save();
+                }
+                if (LembrarUser.Checked == false)
+                {
+                    Properties.Settings.Default.usuario = "";
+                    Properties.Settings.Default.senha = "";
+                    Properties.Settings.Default.Save();
+                }
+            }
             else
             {
                 MessageBox.Show("Login ou Senha invalidos");

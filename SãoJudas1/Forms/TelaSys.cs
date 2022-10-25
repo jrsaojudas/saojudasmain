@@ -47,5 +47,11 @@ namespace SãoJudas1.Forms
             cadastroUsuario.Show();
 
         }
+
+        private void procurarUsuárioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmPesquisaCliente frmPesquisaCliente = new frmPesquisaCliente();   
+            frmPesquisaCliente.Show();
+        }
     }
 }

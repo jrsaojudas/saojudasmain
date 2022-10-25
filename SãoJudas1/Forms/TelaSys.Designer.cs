@@ -38,6 +38,7 @@
             this.logísticaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tecnologiaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cadastroUsuárioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.procurarUsuárioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -108,7 +109,8 @@
             // tecnologiaToolStripMenuItem
             // 
             this.tecnologiaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.cadastroUsuárioToolStripMenuItem});
+            this.cadastroUsuárioToolStripMenuItem,
+            this.procurarUsuárioToolStripMenuItem});
             this.tecnologiaToolStripMenuItem.Name = "tecnologiaToolStripMenuItem";
             this.tecnologiaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.tecnologiaToolStripMenuItem.Text = "Tecnologia";
@@ -119,6 +121,13 @@
             this.cadastroUsuárioToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.cadastroUsuárioToolStripMenuItem.Text = "Cadastro Usuário";
             this.cadastroUsuárioToolStripMenuItem.Click += new System.EventHandler(this.cadastroUsuárioToolStripMenuItem_Click);
+            // 
+            // procurarUsuárioToolStripMenuItem
+            // 
+            this.procurarUsuárioToolStripMenuItem.Name = "procurarUsuárioToolStripMenuItem";
+            this.procurarUsuárioToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.procurarUsuárioToolStripMenuItem.Text = "Procurar Usuário";
+            this.procurarUsuárioToolStripMenuItem.Click += new System.EventHandler(this.procurarUsuárioToolStripMenuItem_Click);
             // 
             // TelaSys
             // 
@@ -151,5 +160,6 @@
         private System.Windows.Forms.ToolStripMenuItem logísticaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem tecnologiaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cadastroUsuárioToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem procurarUsuárioToolStripMenuItem;
     }
 }
